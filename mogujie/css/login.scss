@@ -1,0 +1,145 @@
+@function num($val){
+	@return $val / 20;
+}
+html,body{
+	height:100%;
+	color: #666;
+	font: 20px/1.2rem Arial;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,a,big,del,em,img,small,strike,strong,
+sub,sup,tt,var,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,thead,tr,th,
+td,article,aside,canvas,details,figure,figcaption,footer,header,section,summary,time,input{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+i,em{
+	font-style: normal;
+}
+ul li{
+	list-style: none;
+}
+input{
+	outline: none;
+	border: none;
+}
+.box{
+	width: 100%;
+	padding: num(3rem);
+}
+.content{
+	width: 100%;
+	border: num(1rem) solid #c9c7c8;
+}
+.tit{
+	width: 100%;
+	height: num(37rem);
+	border-bottom: num(1rem) solid #c9c7c8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	span{
+		flex: 1;
+		font-size: num(14rem);
+	}
+}
+.left{
+	text-indent: num(12rem);
+	font-family: 'iconfont';
+	font-weight: 700;
+}
+.mid{
+	text-align: center;
+	font-weight: 700;
+}
+.right{
+	text-align: right;
+}
+.w{
+	width: num(292rem);
+	margin: num(24rem) auto 0;
+	overflow: hidden;
+}
+.hao{
+	height: num(30rem);
+	text-align: center;
+	font-size: num(12rem);
+	line-height: num(30rem);
+	margin-top: num(10rem);
+}
+.name{
+	width: 100%;
+	height: num(30rem);
+	border-bottom: num(1rem) solid #e7e7eb;
+	margin-top: num(2rem);
+	input{
+		text-align: center;
+		line-height: num(30rem);
+		width: 100%;
+		height: 98%; 
+		font-size: num(20rem);
+	}
+}
+::-webkit-input-placeholder{
+	
+	color: #eff0f3;
+}
+.login-in{
+	width: 100%;
+	background: #ff1877;
+	margin-top: num(22rem);
+	color: #fff;
+	text-align: center;
+	line-height: num(42rem);
+	height: num(42rem);
+	border-radius: num(4rem);
+	font-size: num(16rem);
+}
+.mi,.register{
+	margin-top: num(16rem);
+	font-size: num(12rem);	
+
+}
+.mi{
+	float: left;
+	color: #999999;
+}
+.register{
+	float: right;
+	color: #ff5777;
+}
+.str{
+	height: num(20rem);
+	width: num(114rem);
+	border-top: num(1rem) solid #f1f1f1;
+	border-bottom: num(1rem) solid #f1f1f1;
+	margin: num(74rem) 0  0 num(13rem);
+	position: relative;
+}
+.or{
+	position: absolute;
+	right: num(-22rem);
+	top: num(-16rem);
+	font-size: num(12rem);
+	color: #f1f1f1;
+}
+.qq{
+	font-family: 'iconfont';
+	font-size: num(100rem);
+	color: #0598e2;
+	margin-top: num(50rem);
+	text-align: center;
+	height: num(100rem);
+	position: relative;
+	span{
+		color: #fff;
+		font-size: 	num(10rem);
+		position: absolute;
+		left: 44%;
+		top: 32%;
+	}
+}

@@ -1,0 +1,260 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,a,big,del,em,img,small,strike,strong,
+sub,sup,tt,var,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,thead,tr,th,
+td,article,aside,canvas,details,figure,figcaption,footer,header,section,summary,time,input{
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.top{
+	height: 80px;
+	width: 100%;
+	background: #ffffff;
+}
+.logo{
+	height: 60px;
+	width: 300px;
+	position: relative;
+}
+.tu1{
+	height: 60px;
+	width: 170px;
+	position: absolute;
+	left: 312px;
+	top: 20px;
+}
+.welcome{
+	height: 24px;
+	width: 96px;
+	font-size: 20px;
+	position: absolute;
+	color: #3b3b3b;
+	left: 500px;
+	top: 26px;
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;	
+}
+.w1{
+	position: absolute;
+	right: 420px;
+	top: 58px;
+}
+.w2{
+	width: 119px;
+	height: 20px;
+	position: absolute;
+	right: 302px;
+	top: 58px;
+	font-size: 12px;
+	color:#999;
+	line-height: 20px;
+	text-align: center;
+}
+.w2:hover{
+    color: #f00;  
+    text-decoration: underline;  
+}
+.content{
+	height: 473px;
+	width: 100%;
+	position: relative;
+	top: 20px;
+	background: black;
+	overflow: hidden;
+}
+.content img{
+	position: absolute;
+	left: 270px;
+}
+.put{
+	height:363px; 
+	width:347px;
+	background: white;
+	position: absolute;
+	left: 892px;
+	top: 40px;
+}
+.denglu{
+	height: 55px;
+	width: 346px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.a1{
+	display: block;
+	height: 19px;
+	width: 172px;
+	border-right: 1px solid #f4f4f4;
+	line-height: 19px;
+	text-align: center;
+	position: absolute;
+	top:18px;
+	text-align: center;
+}
+.a2{
+	display: block;
+	height: 19px;
+	width: 172px;
+	line-height: 19px;
+	text-align: center;
+	position: absolute;
+	top:18px;
+	right: 0;
+	text-align: center;
+}
+.a1:hover{
+	color: red;
+	font-weight: bold;
+}
+.a2:hover{
+	color: red;
+	font-weight: bold;
+}
+.in1,.in2{
+	height: 38px;
+	width: 266px;
+	position: absolute;
+	left: 60px;
+	outline: none;
+}
+.in1{
+	top: 88px;
+}
+.in2{
+	top:148px; 
+}
+.rentou,.suo{
+	display: block;
+	font-family:'iconfont';
+	height: 40px;
+	width: 40px;
+	background:#f3f3f3;
+	color: #d4d4d4;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	left: 20px;
+	border:1px solid #bdbdbd;	
+}
+.rentou{
+	top: 88px;
+}
+.suo{
+	top:148px;
+}
+.wang{
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	right: 20px;
+	top: 210px;
+	font-size: 12px;
+	color:#666666;
+	line-height: 20px;
+	text-align: center;
+}
+.hong{
+	height: 34px;
+	width: 306px;
+	background:#e4393c;
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	left: 20px;
+	bottom: 80px;
+	line-height: 34px;
+	text-align: center;
+}
+.dibu{
+	width: 100%;
+	height: 50px;
+	border-top:1px solid #f4f4f4;
+	position: absolute;
+	bottom: 0;
+}
+.qq{
+	height: 11px;
+	width: 58px;
+	font-size: 10px;
+	position: absolute;
+	left: 20px;
+	bottom: 18px;
+	text-align: center;
+	line-height: 11px;
+	border-right: 1px solid #f4f4f4;
+}
+.wechat{
+	height: 11px;
+	width: 78px;
+	font-size: 10px;
+	position: absolute;
+	left: 89px;
+	bottom: 18px;
+	text-align: center;
+	line-height: 11px;
+}
+.zhuce{
+	color: #b61d1d;
+	height: 16px;
+	width: 76px;
+	position: absolute;
+	right: 21px;
+	bottom: 18px;
+	text-align: center;
+	line-height: 16px;
+	font-size: 14px;
+}
+.q,.we,.zhu{
+		font-family:'iconfont';
+}
+.q{
+	font-size: 18px;
+	color: #10a8ff;
+	position: absolute;
+	left: 0;
+}
+.we{
+	font-size: 18px;
+	color: #00cc00;
+	position: absolute;
+	left:6px;
+}
+.bottom{
+	height: 215px;
+	width: 100%;
+	position: relative;
+	bottom:-20px;
+}
+.pp{
+	height: 52px;
+	width: 1050px;
+	color: #b3b3b3;
+	column-count: 11;
+	column-gap: 30px;
+	font-size: 12px;
+	column-rule: 1px solid #b1b1b1;
+	text-align: center;
+	position: absolute;
+	top: 22px;
+	left: 150px; 
+}
+.dp{
+	position: absolute;
+	top: 52px;
+	left: 600px;
+	height: 20px;
+	width: 260px;
+	color: #b3b3b3;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
